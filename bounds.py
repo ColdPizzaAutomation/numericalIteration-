@@ -17,7 +17,7 @@ response = verif.lower()
 if lb > ub:
     print ("\nFATAL ERROR: \n\nYour lower-bound input is greater than your upper-bound input. \n\nPlease try again.")
 
-
+#conditional check to ensure lower bound is strictly less than upper bound
 #returns stored input to user, prompts user for response to exe program. User response is made lower-case
 
 if verif =="y":
